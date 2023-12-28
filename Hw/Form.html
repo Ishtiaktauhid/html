@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="thank you.html" method="post">
+<fieldset style=" margin:10px auto; width:200px">
+<legend align="center"><h3><b>Student Registration</b></h3></legend>
+	<table>
+		<tr>
+        <td><label for="id">ID</label></td>
+        <td><input type="text" id="id"></td>
+		</tr>
+        
+        <tr>
+        <td><label for="name">Name</label></td>
+        <td><textarea id="name" cols="22"></textarea> </td>
+		</tr>
+        
+        <tr>
+        <td><label for="round">Round</label></td>
+        <td>
+        	<select id="round">
+            	<option value="--Select--">--Select--</option>
+            	<option value="R-44">R-44</option>
+            	<option value="R-45">R-45</option>
+                <option value="R-46">R-46</option>
+            </select>
+        </td>
+		</tr>
+        
+         <tr>
+        <td><label for="gender">Gender</label></td>
+        <td>
+        	<input type="radio" name="gender" id="male">
+            <label for="male" value="male">Male</label>	
+            <input type="radio" name="gender" id="female">
+            <label for="female" value="female">Female</label>	
+
+        </td>
+		</tr>
+        
+        <tr>
+        <td><label for="education">Education</label></td>
+        <td>
+        	<input type="checkbox" name="education" id="ssc">
+            <label for="ssc" value="ssc">SSC</label><br>	
+            <input type="checkbox" name="education" id="hsc">
+            <label for="hsc" value="hsc">HSC</label>	
+
+        </td>
+		</tr>
+        
+        <tr>
+        <td></td>
+        <td><input type="submit" value="Submit" autofocus="">        
+        <input type="reset" value="Reset"></td>
+        </tr>
+	</table>
+</fieldset>
+</form>
+
+</body>
+</html>

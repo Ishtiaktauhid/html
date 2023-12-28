@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 162</title>
+</head>
+<body>
+    <!--Part 1-->
+    <h1>Public Radio Station Listener Survey</h1>
+    <form action="" method="Post">
+    <div>
+        <!--text input-->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" maxlength="100">
+    </div>
+    <fieldset>
+        <!--radio buttons-->
+        <legend>Gender</legend>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+    </fieldset>
+    
+
+    <!--Part 2-->
+    <div>
+      <!--select box-->
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="AF">Afganistan</option>
+        <option value="BD">Bangladesh</option>
+        <option value="IND">India</option>
+      </select>
+    </div>
+
+    <div>
+        <!--textarea-->
+        <label for="comments"> Comments:</label>
+        <textarea name="comments" id="comments" cols="40" rows="3"></textarea>
+       
+    </div>
+    <div>
+        <!--checkbox-->
+        <input type="checkbox" name="subscribed" id="subscribed" checked="checked" />
+        <label for="">Yes, I'm a current subscriber</label>
+    </div>
+
+    <div>
+        <!--submit-->
+        <input type="submit" value="Submit" />
+    </div>
+    </form>
+</body>
+</html>
